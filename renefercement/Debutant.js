@@ -93,7 +93,20 @@ const scoreDecroissant=[...scores].sort((a,b)=> b-a);
 const nomsTrieAlph=noms.sort((a,b)=>a.localeCompare(b))
 const troisMeilleurs=scoreDecroissant.slice(0,3);
 // exer:8
+// partie A: --spread
 let fruits=['pomme','poire'] ;
 let legumes=['carotte','tomate'];
 let aliments=[...fruits,...legumes];
-console.log(aliments);
+let copiePanier=[...aliments,'cerese'];
+let ary= [3,1,4,1,5,9,2,6];
+let maxnb=Math.max(...ary);
+let minnb=Math.min(...ary);
+// partie B: --Desructuration 
+let couleurs =['rouge','vert','bleu','jaune'];
+const [premier,deuxieme,...autreCouleurs]=couleurs;
+let x=10;
+let y=20;
+[x,y]=[y,x];
+let data=[42];
+const [val,unite='kg']=data;
+console.log(val);
