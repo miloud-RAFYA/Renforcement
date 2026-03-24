@@ -1,0 +1,19 @@
+/*
+Q:1
+les acteurs principale:
+visiteur,membre, Administrateur
+les acteur secondaires:
+systeme e-mail
+les cas d'utilisation:
+visiteur : consulter les livres 
+membre: S'inscrire , rechercher des livers ,emprunter des levres , rende des levres ,consulter les historique .
+administrateur : S'inscrire , modifier et ajouter et supprimer des catalogue,modifier et supprimier et ajouter des membres ,
+Q:2
+les acteurs :
+user,Client , livreur , Administrateur .
+les cas d'utilisation :
+user: S'inscrire ,parcourir les restaurants
+Client:  passer une commande , suivre leur livrison en tempts reel ,noter le livreur , payer une demmande ,ajouter un code promo .
+Livreur: acceptent des missions ,confirment la livrison , consultent leur historique.
+Administarateur: gerer les restaurants et livreurs et signalements.
+ */
