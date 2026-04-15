@@ -40,4 +40,27 @@ function rotate1(t,n){
     }
     return t;
 }
-console.log(rotate1([1,2,3,4,5,6],3));
+// console.log(rotate1([1,2,3,4,5,6],3));
+// Exr:13
+function flatten(tableau) {
+    return tableau.reduce((resultat,element)=>{
+        if(Array.isArray(element)){
+            return resultat.concat(flatten(element));
+        }
+        return resultat.concat(element);
+    },[]);
+}
+// console.log(flatten([[1,[[[48]]]],[[[3]],4]]))
+// exer:14
+function intersection(a,b){
+        const t =[];
+        a.forEach(e=>{
+            b.forEach(el=>{
+                if(e==el){
+                    t.push(e);
+                }
+            })
+        })
+        return t;
+}
+console.log(intersection([1,48,4,3],[3,4,1]))
