@@ -50,7 +50,7 @@ class Moto extends Vehicule
     public function __construct($marque,$modele,$annee,$prixBase){
         parent::__construct($marque,$modele,$annee,$prixBase);
     }
-     public function getPrixFinal(){
+    public function getPrixFinal(){
            if($this->annee < 2020){
 
             return $this->prixBase - ($this->prixBase*0.05);
