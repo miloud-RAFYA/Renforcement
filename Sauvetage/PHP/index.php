@@ -18,3 +18,21 @@ for ($i=0;$i<10;$i++){
 }
 // 2. Introduction à la POO — Analogie
 
+interface loiso{
+    public function tit();
+}
+abstract class animal implements loiso{
+    protected $name;
+    protected $age;
+    protected $ville;
+
+    public abstract function dog();
+}
+class gig extends animal {
+public function tit(){
+
+}
+ public  function dog(){
+
+ }
+}
